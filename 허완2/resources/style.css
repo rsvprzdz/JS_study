@@ -1,0 +1,73 @@
+.wrap{
+    background-color: rgb(222, 235, 247);
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size:large;
+    font-weight: 600;
+    border: 1px solid rgb(105, 144, 179);
+}    
+
+.signIn{
+    border: 2px solid rgb(224, 225, 224);
+    background-color: rgb(237, 237, 237);
+    height: 500px;
+    width: 450px;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+tr{
+    height: 50px;
+}
+td{
+    width: 150px;
+}
+
+#btn{
+    background-color: rgb(197, 224, 180);
+    width: 95%;
+    height: 50px;
+    font-size: large;
+    font-weight: 600;
+    border: none;
+}
+
+#btn:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+input{
+    border: none;
+    border-bottom: 2px dashed;
+    background-color: rgb(237, 237, 237);
+    width: 240px;
+}
+
+.email{
+    width: 108px;
+    
+}
+
+#warning{
+    font-size: x-small;
+    color: gray;
+    
+}
+
+.warning2{
+    font-size: x-small;
+    color: gray;
+}
+
+.ghostRow{
+    height: 15px;
+}

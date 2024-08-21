@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="resources/style.css">
+    <script src="resources/script.js"></script>
+
+</head>
+<body>
+    <div class="wrap">
+        <div class="signIn">
+            <table >
+                <tr>
+                    <td>아이디</td>
+                    <td><input type="text" name="userId" class="essential" id="userId" value="" onclick="deleteIdWarning()"></td>
+                </tr>
+                <tr class="ghostRow">
+                    <td></td>
+                    <td class="warning2" id="idWarning"></td>
+                </tr>
+                <tr>
+                    <td>패스워드</td>
+                    <td><input type="password" name="userPwd" class="essential" id="userPwd" value="" onclick="pwdWarning()"></td>
+                </tr>
+                <tr class="ghostRow">
+                    <td></td>
+                    <td class="warning2" id="pwdWarning"></td>
+                </tr>
+                <tr>
+                    <td>패스워드 확인</td>
+                    <td><input type="password" name="pwdCheck" class="essential" id="pwdCheck" value="" onclick="deletePwdWarning()"></td>
+                </tr>
+                <tr class="ghostRow">
+                    <td></td>
+                    <td class="warning2" id="pwdCheckWarning"></td>
+                </tr>
+                <tr>
+                    <td>이메일</td>
+                    <td><input type="text" name="email" class="email" id="emailId" onclick="essentialCheck()">@<input type="text" name="domain" class="email" id="domain" onclick="essentialCheck()"></td>
+                </tr>
+                <tr>
+                    <td>주소</td>
+                    <td><input type="text" name="address" id="address1" onclick="essentialCheck()"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="text" name="address" id="address2" onclick="essentialCheck()"></td>
+                </tr>
+            </table>
+            <br><br>
+            <button id="btn">가 입</button>
+        </div>
+    </div>
+
+    
+</body>
+</html>
